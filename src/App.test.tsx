@@ -1,9 +1,10 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import React from "react";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+import { render } from "@testing-library/react";
+import App from "./App";
+
+describe("Should render withou crash", () => {
+  test("should call onChange if input value is empty string", () => {
+    render(<App />);
+  });
 });

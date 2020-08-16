@@ -1,5 +1,23 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Folder strucutre
+
+### Components
+
+Contains common resuabe components that will be used across applicaton
+
+### Pages
+
+Contains main pages, inside each page will contain sub-component for that page
+
+### Store
+
+Contains redux files
+
+### Utils
+
+Contains utils files that will be used across applicaton
+
 ## Available Scripts
 
 In the project directory, you can run:
